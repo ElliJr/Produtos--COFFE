@@ -89,10 +89,12 @@ a{
     padding: 4px;
 }
 .lugarDosProdutos{
+    backdrop-filter: blur(8px);
     background-color: rgba(116, 53, 37, 0.575);
     border-radius: 12px;
     margin: 12px;
     padding: 50px;
+    transition: 1s;
 }
 .seções{
     text-align: center; 
@@ -110,12 +112,12 @@ a{
 margin: 3px;
 }
 .partes{
-    background-color: rgba(20, 0, 107, 0.856);
     margin: 10px;
     border-radius: 12px;
     transition: 1s;
 }
 .partes:hover{
+    background-color: rgba(88, 25, 25, 0.596);
     transition: 1s;
     transform: rotate3d(1, 1, 1, -10deg);
 }
