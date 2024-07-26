@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.efeitoAnimado{
+    visibility: hidden;
+}
 body{
     background-image: url("coffe.png");
     background-repeat: no-repeat;
@@ -82,14 +85,14 @@ a{
     font-style: normal;
 }
 .produtos{
-    background-color: red;
-    margin: 12px;
+    margin: 50px;
     padding: 4px;
 }
 .lugarDosProdutos{
-    background-color: green;
+    background-color: rgba(116, 53, 37, 0.575);
+    border-radius: 12px;
     margin: 12px;
-    padding: 60px;
+    padding: 50px;
 }
 .seções{
     text-align: center; 
