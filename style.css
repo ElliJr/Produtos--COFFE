@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("coffe.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-attachment: fixed;
+}
+div.partePrincipal{
+    margin: 10px;
+}
 div.detalhe{
     background-color: rgba(48, 6, 6, 0.76);
 }
