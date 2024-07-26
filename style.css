@@ -17,7 +17,7 @@ div.partePrincipal{
 div.detalhe{
     background-color: rgba(48, 6, 6, 0.76);
 }
-img, h3{
+img, .h3{
     display: inline-flex;
 }
 .h3{
@@ -98,16 +98,26 @@ a{
 .arrumadinhos{
     margin: 30px;
     display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-.parteDosMouses{
-    background-color: black;
+.arrumado{
+margin: 3px;
+}
+.partes{
+    background-color: rgba(20, 0, 107, 0.856);
     margin: 10px;
-    flex: auto;
+    border-radius: 12px;
+    transition: 1s;
 }
-.parteDosTeclados{
-    background-color: black;
-    margin: 9px;
-    flex: auto;
+.partes:hover{
+    transition: 1s;
+    transform: rotate3d(1, 1, 1, -10deg);
+}
+h4{
+    text-align: center;
 }
 
 
