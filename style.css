@@ -23,6 +23,9 @@ div.detalhe{
 img, .h3{
     display: inline-flex;
 }
+img{
+    width: 100%;
+}
 .h3{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -50,8 +53,8 @@ nav{
     margin-left: 40px;
 }
 ul{
-margin-right:30px ;
-display: flex;
+    margin-right:30px ;
+    display: flex;
 }
 .entrar{
     position: absolute;
