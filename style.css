@@ -106,10 +106,17 @@ a{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    
 }
-.arrumado{
-margin: 3px;
+.seções{
+    background-color: rgba(12, 11, 11, 0.767);
+    height: 60px;
+    border-radius: 12px 30px;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+h2{
+
 }
 .partes{
     margin: 10px;
@@ -120,6 +127,7 @@ margin: 3px;
     background-color: rgba(88, 25, 25, 0.596);
     transition: 1s;
     transform: rotate3d(1, 1, 1, -10deg);
+    cursor: pointer;
 }
 h4{
     text-align: center;
