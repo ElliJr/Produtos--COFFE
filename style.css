@@ -23,9 +23,6 @@ div.detalhe{
 img, .h3{
     display: inline-flex;
 }
-img{
-    width: 100%;
-}
 .h3{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
