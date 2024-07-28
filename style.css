@@ -19,6 +19,7 @@ body{
 }
 .detalhe{
     background-image: linear-gradient(45deg, rgb(46, 1, 1), rgba(58, 22, 22, 0.705));
+    border-radius: 12px;
 }
 img, .h3{
     display: inline-flex;
@@ -44,14 +45,6 @@ img{
 }
 nav{
  margin-left: 40px;
-}
-.entrar{
-    position: absolute;
-    left: 730px;
-    background-color: coral;
-    padding: 7px;
-    border-radius: 20px;
-    flex: auto;
 }
 li{
     flex: auto;
