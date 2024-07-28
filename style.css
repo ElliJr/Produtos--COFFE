@@ -37,7 +37,7 @@ img{
 .menu{
     background-color: rgba(0, 0, 0, 0.644);
     align-items: center;
-    width: 500px; 
+    width: 470px; 
     height: 50px;
     padding: 5px;
     border-radius: 35px 3px 30px 3px;
@@ -97,6 +97,7 @@ a{
 
 }
 .seções{
+    justify-content: center;
     text-align: center; 
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.767);
