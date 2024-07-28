@@ -14,10 +14,10 @@ body{
     background-size: 1400px;
     background-attachment: fixed;
 }
-div.partePrincipal{
+.partePrincipal{
     margin: 10px;
 }
-div.detalhe{
+.detalhe{
     background-color: rgba(48, 6, 6, 0.76);
 }
 img, .h3{
@@ -33,7 +33,7 @@ img{
     font-style: normal;
     font-size: 43px
 }
-div.menu{
+.menu{
     background-color: rgba(0, 0, 0, 0.644);
     margin-left: 500px;
     width: 500px; 
@@ -41,20 +41,11 @@ div.menu{
     position: absolute;
     top: 20px;  
     padding: 5px;
-    border-radius: 12px;
-}
-div.meuMenu{
-    position: absolute;
-    left: 470px;
-    top: 8px;
-    font-size: 40px;
+    border-radius: 12px; 
 }
 nav{
     margin-left: 40px;
-}
-ul{
-    margin-right:30px ;
-    display: flex;
+        display: flex;
 }
 .entrar{
     position: absolute;
@@ -62,6 +53,7 @@ ul{
     background-color: coral;
     padding: 7px;
     border-radius: 20px;
+    flex: auto;
 }
 li{
     flex: auto;
@@ -102,9 +94,12 @@ a{
 .arrumadinhos{
     margin: 30px;
     display: flex;
-    justify-content: space-around;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+
 }
 .seções{
     text-align: center; 
@@ -136,28 +131,7 @@ h2{
 h4{
     text-align: center;
 }
-.menuzinho{
-    position: sticky;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    font-size: 30px;
-    cursor: pointer;
-}
-/* menu area */
-.menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(32, 93, 43, 0.589);
-    backdrop-filter: blur(8px);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
+
 
 /* area do footer */
 .ultimaParte{
@@ -178,6 +152,7 @@ h4{
     padding: 12px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .area1{
     margin: 10px;
