@@ -23,6 +23,9 @@ div.detalhe{
 img, .h3{
     display: inline-flex;
 }
+img{
+    border-radius: 12px;
+}
 .h3{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -96,10 +99,6 @@ a{
     padding: 50px;
     transition: 1s;
 }
-.seções{
-    text-align: center; 
-    padding: 30px;
-}
 .arrumadinhos{
     margin: 30px;
     display: flex;
@@ -108,12 +107,20 @@ a{
     flex-wrap: wrap;
 }
 .seções{
-    background-color: rgba(12, 11, 11, 0.767);
+    text-align: center; 
+    padding: 30px;
+}
+.seções{
+    background-color: rgba(0, 0, 0, 0.767);
     height: 60px;
     border-radius: 12px 30px;
     position: sticky;
     top: 0;
     right: 0;
+    z-index: 100;
+}
+h2{
+    color: wheat;
 }
 .partes{
     margin: 10px;
@@ -129,8 +136,28 @@ a{
 h4{
     text-align: center;
 }
-
-
+.menuzinho{
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* menu area */
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(32, 93, 43, 0.589);
+    backdrop-filter: blur(8px);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
 /* area do footer */
 .ultimaParte{
