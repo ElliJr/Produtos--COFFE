@@ -80,7 +80,6 @@ a{
 }
 .lugarDosProdutos{
     backdrop-filter: blur(8px);
-    background-color: rgba(116, 53, 37, 0.719);
     border-radius: 12px;
     margin: 12px;
     padding: 50px;
@@ -181,5 +180,11 @@ h4{
     .produtorCoffe{
     width: 100px;
 }
+}
+@media(max-width: 540px)
+{
+    body{
+        background-position: -370px;
+    }
 }
 
