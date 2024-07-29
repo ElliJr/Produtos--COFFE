@@ -80,6 +80,7 @@ a{
 }
 .lugarDosProdutos{
     backdrop-filter: blur(8px);
+    background-color: rgba(29, 2, 2, 0.815);
     border-radius: 12px;
     margin: 12px;
     padding: 50px;
