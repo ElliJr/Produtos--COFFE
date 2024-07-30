@@ -75,15 +75,15 @@ a{
     font-style: normal;
 }
 .produtos{
-    margin: 50px;
-    padding: 4px;
+    margin: 20px;
+    padding: 40px;
 }
 .lugarDosProdutos{
     backdrop-filter: blur(8px);
     background-color: rgba(29, 2, 2, 0.815);
     border-radius: 12px;
     margin: 12px;
-    padding: 50px;
+    padding: 30px;
     transition: 1s;
 }
 .arrumadinhos{
@@ -107,6 +107,9 @@ a{
     top: 0;
     right: 0;
     z-index: 100;
+}
+.produtorCoffe{
+    width: 200px;
 }
 h2{
     color: wheat;
@@ -160,6 +163,10 @@ h4{
         font-family: "Roboto", sans-serif;
         font-weight: 900;
         font-style: normal;
+}
+.X{
+    position: relative;
+    top: -10px;
 }
 .voltarTopo{
     margin: 30px;
