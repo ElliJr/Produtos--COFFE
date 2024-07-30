@@ -41,10 +41,10 @@ img{
     height: 50px;
     padding: 5px;
     border-radius: 35px 3px 30px 3px;
-    flex-wrap: wrap;
 }
 nav{
  margin-left: 40px;
+ flex-wrap: wrap;
 }
 li{
     flex: auto;
@@ -76,7 +76,7 @@ a{
 }
 .produtos{
     margin: 20px;
-    padding: 40px;
+    padding: 20px;
 }
 .lugarDosProdutos{
     backdrop-filter: blur(8px);
@@ -87,8 +87,7 @@ a{
     transition: 1s;
 }
 .arrumadinhos{
-    margin: 30px;
-    display: flex;
+    margin: 10px;
     flex-flow: row;
     justify-content: center;
     align-items: center;
@@ -144,6 +143,7 @@ h4{
     background-repeat: no-repeat;   
     background-size: 1370px 900px;
     border-radius: 12px;
+    background-position: center center;
 }
 .primeiraArea{
     margin: 12px;
@@ -181,6 +181,52 @@ h4{
     border-radius: 17px;
     background-color: rgba(0, 0, 0, 0.555);
 }
+.Entrar{
+    background-color: rgba(75, 46, 46, 0.651);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border: 3px solid black;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.labelInput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    }
+    #butao{
+        width: 80px;
+        border: none;
+        border-radius: 12px;
+        padding: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    #butao:hover{
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+    }
 /* final do footer*/
 
 @media(max-width: 948px)
@@ -189,7 +235,7 @@ h4{
     width: 100px;
 }
 }
-@media(max-width: 540px)
+@media(max-width: 500px)
 {
     body{
         background-position: -370px;

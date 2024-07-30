@@ -7,3 +7,11 @@ function toggleMenu(){
      menu.style.width = "250px";
     }
 }
+// codigo para tamanho da senha colocada
+function validarCampo() {
+    const campo = document.getElementById("meuCampo");
+    const valor = campo.value;
+    if (valor.length < 8){
+        alert("Digite pelo menos 8 caracteres!");
+    }
+}
